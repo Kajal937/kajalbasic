@@ -9,19 +9,19 @@ JSON file
 ## Where Is It Used ?
 Some notable(Famous) examples of applications using Jinja2 are Ansible, Django, Flask, Salt and Trac.
 
-#Advantages and Why we use jinja?
+# Advantages and Why we use jinja?
 
 Clarity:
 Jinja2 helps keep things neat and organized. It separates the code that does the work (like fetching data) from how the data is displayed (like creating a webpage).
 Flexible: 
 Flexibility means the ability to adapt or change easily to different situations or needs.
 
-##Why Would I Want To Use It?
+## Why Would I Want To Use It?
 Web frameworks like Flask and Django, or automation ones like Ansible and Salt, provide out of the box support for Jinja.
 Ansible even uses a lot of the Jinja syntax in its Playbooks.
 
-#Ansible - Ansible is an open-source automation tool(For example, if you want to install software on multiple computers, you can use an automation tool to do it on all of them simultaneously, saving you time and effort.) that allows you to define infrastructure as code and automate tasks such as configuration management, application deployment.
-#SaltStack (Salt) - Salt is another infrastructure automation and configuration management tool. It is also similar to Ansible.
+# Ansible - Ansible is an open-source automation tool(For example, if you want to install software on multiple computers, you can use an automation tool to do it on all of them simultaneously, saving you time and effort.) that allows you to define infrastructure as code and automate tasks such as configuration management, application deployment.
+# SaltStack (Salt) - Salt is another infrastructure automation and configuration management tool. It is also similar to Ansible.
 Ansible uses playbooks to declare tasks.
 
 Static Template:
@@ -29,10 +29,10 @@ A static template is a fixed, unchanging template that contains predefined conte
 Dynamic Template:
 It can change based on input data and conditions.
 
-##How Does It Work?
+## How Does It Work?
 Jinja2 essentially needs two source ingredients, template and data that will be used to render the final documents.
 
-##The syntax of Jinja2 templates is straightforward and uses double curly braces ({{ }}) to enclose expressions, variables, or statements
+## The syntax of Jinja2 templates is straightforward and uses double curly braces ({{ }}) to enclose expressions, variables, or statements
 1. Variables: To insert a variable's value into the template, use double curly braces with the variable name inside, like this:
 Hello, {{ name }}!
 2. Expressions: You can use Jinja2 expressions to perform operations or evaluations within the template. For example:

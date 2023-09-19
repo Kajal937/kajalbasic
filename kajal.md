@@ -9,7 +9,7 @@ JSON file
 ## Where Is It Used ?
 Some notable(Famous) examples of applications using Jinja2 are Ansible, Django, Flask, Salt and Trac.
 
-# Advantages and Why we use jinja?
+## Advantages and Why we use jinja?
 
 Clarity:
 Jinja2 helps keep things neat and organized. It separates the code that does the work (like fetching data) from how the data is displayed (like creating a webpage).
@@ -20,8 +20,8 @@ Flexibility means the ability to adapt or change easily to different situations 
 Web frameworks like Flask and Django, or automation ones like Ansible and Salt, provide out of the box support for Jinja.
 Ansible even uses a lot of the Jinja syntax in its Playbooks.
 
-# Ansible - Ansible is an open-source automation tool(For example, if you want to install software on multiple computers, you can use an automation tool to do it on all of them simultaneously, saving you time and effort.) that allows you to define infrastructure as code and automate tasks such as configuration management, application deployment.
-# SaltStack (Salt) - Salt is another infrastructure automation and configuration management tool. It is also similar to Ansible.
+Ansible - Ansible is an open-source automation tool(For example, if you want to install software on multiple computers, you can use an automation tool to do it on all of them simultaneously, saving you time and effort.) that allows you to define infrastructure as code and automate tasks such as configuration management, application deployment.
+SaltStack (Salt) - Salt is another infrastructure automation and configuration management tool. It is also similar to Ansible.
 Ansible uses playbooks to declare tasks.
 
 Static Template:

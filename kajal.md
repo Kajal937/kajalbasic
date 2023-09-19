@@ -1,5 +1,6 @@
 ## What Is Jinja2 ?
-Jinja2 is a popular and powerful templating engine for Python programming. It is used to generate dynamic content in various applications, such as web development, configuration management, and more. 
+Jinja2 is a popular and powerful templating engine for Python programming. It is used to generate dynamic content in various
+applications, such as web development, configuration management, and more. 
 Templating languages allow creation of text based documents where some of the content can be dynamically generated. Resulting files can be HTML, JSON, XML, or anything.
 
 For data format:
